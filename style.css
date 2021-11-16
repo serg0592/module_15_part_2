@@ -1,0 +1,55 @@
+.card {
+    background-color: #fdfb88;
+    border-radius: 50px;
+}
+
+.calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.input-window {
+    text-align: end;
+    font-size: x-large;
+    border-radius: 0;
+}
+
+#storyWindow {
+    font-size: .7rem;
+}
+
+#storyWindow_2 {
+    font-size: .7rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+#inputWindow {
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    margin-bottom: 10px;
+}
+
+.input_story {
+    border: 1px solid grey;
+}
+
+.btn-outline-danger {
+    border: 3px outset #dc3545;
+    margin: 2px;
+}
+
+.btn-outline-secondary {
+    border: 3px outset #6c757d;
+    margin: 2px;
+}
+
+.btn-outline-primary {
+    border: 3px outset #007bff;
+    margin: 2px;
+}
+
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 12px;
+    padding-left: 12px;
+}
